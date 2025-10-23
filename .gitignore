@@ -1,2 +1,8 @@
 # environments
+py
+
+# .env file
 .env
+
+# test output folders
+downloaded_articles
