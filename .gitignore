@@ -6,3 +6,6 @@ py
 
 # test output folders
 downloaded_articles
+
+# python cache
+__pycache__/
