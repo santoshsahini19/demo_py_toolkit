@@ -8,4 +8,5 @@ py
 downloaded_articles
 
 # python cache
-__pycache__/
+pycache/
+/src/demo_py_toolkit/pycache/

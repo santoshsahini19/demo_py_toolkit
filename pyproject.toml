@@ -1,0 +1,22 @@
+[build-system] 
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "demo_py_toolkit"
+version = "0.0.1"
+authors = [
+  { name="Santhosh Ram Sahini", email="santoshsahini@gmail.com" },
+]
+description = "demo package to search and download PubMed articles"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/santoshsahini19/demo_py_toolkit"
+Issues = "https://github.com/santoshsahini19/demo_py_toolkit" 
+
