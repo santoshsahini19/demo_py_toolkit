@@ -35,7 +35,10 @@ literature_demo/
 ├── README.md
 └── .gitignore
 └── LICENSE
+```
 
+---
+```bash
 ## 🧰 Dependencies
 
 🧰 Dependencies
