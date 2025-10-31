@@ -10,3 +10,6 @@ downloaded_articles
 # python cache
 pycache/
 /src/demo_py_toolkit/pycache/
+
+# distribution / packaging
+dist/

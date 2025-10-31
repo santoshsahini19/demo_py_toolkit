@@ -12,8 +12,8 @@ description = "demo package to search and download PubMed articles"
 readme = "README.md"
 requires-python = ">=3.0"
 classifiers = [
-    "License :: OSI Approved :: MIT License"
-    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
 ]
 
 [project.urls]
