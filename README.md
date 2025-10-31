@@ -1,10 +1,10 @@
 # 📚 demo_py_toolkit
 
-**demo_py_toolkit** is a lightweight educational Python package that demonstrates how to structure, package, and publish a simple library for retrieving biomedical literature data from PubMed Central (PMC).
+**demo_py_toolkit** is a simple library for retrieving biomedical literature data from PubMed Central (PMC).
 
 It provides two core modules:
-- `ArticleSearcher` - Search PMC for article IDs by query or keyword  
-- `ArticleDownloader` - Download full-text XMLs for those IDs  
+- `SearchPMCArticle` - Search PMC for article IDs by query or keyword  
+- `SearchPMCArticle` - Download full-text XMLs for those IDs  
 
 ## 🚀 Features
 
