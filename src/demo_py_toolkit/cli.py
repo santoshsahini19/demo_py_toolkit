@@ -1,8 +1,8 @@
 # cli script for searching and downloading PMC articles
 
 import argparse
-from demo_py_toolkit.search import SearchPMCArticle
-from demo_py_toolkit.download import DownloadPMCArticle
+from demo_py_toolkit import SearchPMCArticle
+from demo_py_toolkit import DownloadPMCArticle
 
 
 def main():

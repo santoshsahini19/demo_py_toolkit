@@ -1,7 +1,6 @@
-# running modules locally for testing
+# example run to demonstrate searching and downloading PMC articles
 
-from search import SearchPMCArticle
-from download import DownloadPMCArticle
+from demo_py_toolkit import SearchPMCArticle, DownloadPMCArticle
 from dotenv import load_dotenv
 import os
 
