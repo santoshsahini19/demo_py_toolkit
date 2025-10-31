@@ -21,10 +21,6 @@ It provides two core modules:
 ```bash
 pip install literature-demo
 ```
-or for local development:
-```bash
-pip install literature-demo
-```
 
 ## 🧰 Dependencies
 
@@ -56,10 +52,9 @@ literature_demo/
 
 ---
 
-## ⚙️ Quick Start
 ## 🧩 Example: Search and Download
 
-```bash
+```python
 from demo_py_toolkit import SearchPMCArticle, DownloadPMCArticle
 
 # Initialize
