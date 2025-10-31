@@ -1,6 +1,6 @@
 # 📚 demo_py_toolkit
 
-**literature_demo** is a lightweight educational Python package that demonstrates how to structure, package, and publish a simple library for retrieving biomedical literature data from PubMed Central (PMC).
+**demo_py_toolkit** is a lightweight educational Python package that demonstrates how to structure, package, and publish a simple library for retrieving biomedical literature data from PubMed Central (PMC).
 
 It provides two core modules:
 - `ArticleSearcher` — Search PMC for article IDs by query or keyword  
@@ -20,7 +20,24 @@ It provides two core modules:
 
 ```bash
 pip install literature-demo
+```
+or for local development:
+```bash
+pip install literature-demo
+```
 
+## 🧰 Dependencies
+
+```bash
+- requests
+- tqdm
+- python-dotenv
+```
+
+---
+
+## 🗂️ Package Structure
+```bash
 literature_demo/
 │
 └── src/
@@ -38,11 +55,29 @@ literature_demo/
 ```
 
 ---
-```bash
-## 🧰 Dependencies
 
-🧰 Dependencies
-- requests
-- tqdm
-- python-dotenv
+## ⚙️ Quick Start
+## 🧩 Example: Search and Download
+
+```bash
+from demo_py_toolkit import SearchPMCArticle, DownloadPMCArticle
+
+# Initialize
+searcher = ArticleSearcher(api_key="YOUR_NCBI_API_KEY")  # optional
+downloader = ArticleDownloader(api_key="YOUR_NCBI_API_KEY")
+
+# Search for articles
+query = "lung cancer"
+pmc_ids = searcher.search(query, field="Abstract", retmax=5)
+print(f"Found {len(pmc_ids)} articles: {pmc_ids}")
+
+# Download them
+downloader.download(pmc_ids, output_directory="downloaded_articles")
+print("✅ Download complete.")
+```
+
+## 📄 License
+
+MIT License
+Copyright © 2025
 
