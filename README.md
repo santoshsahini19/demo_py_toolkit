@@ -88,8 +88,4 @@ Available arguments:
 | `--api_key`          | Optional NCBI API key for higher rate limits             | ""        |
 
 
-## 📄 License
-
-MIT License
-Copyright © 2025
 
