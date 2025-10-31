@@ -71,6 +71,23 @@ downloader.download(pmc_ids, output_directory="downloaded_articles")
 print("✅ Download complete.")
 ```
 
+## 💻 Command Line Usage
+Once installed, the package provides a command-line interface (CLI):
+```bash
+demo_py_toolkit --query "breast cancer" --field Abstract --max_results 5 --output_directory results
+
+```
+Available arguments:
+
+| Argument             | Description                                              | Default   |
+| -------------------- | -------------------------------------------------------- | --------- |
+| `--query`            | Search term (required)                                   | —         |
+| `--field`            | Field to search in (`Title`, `Abstract`, or `Text Word`) | Abstract  |
+| `--max_results`      | Maximum number of search results                         | 5         |
+| `--output_directory` | Directory to store downloaded XML files                  | downloads |
+| `--api_key`          | Optional NCBI API key for higher rate limits             | ""        |
+
+
 ## 📄 License
 
 MIT License
