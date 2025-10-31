@@ -7,9 +7,10 @@ test_env
 
 # test output folders
 downloaded_articles
+downloads
 
 # python cache
-pycache/
+__pycache__/
 /src/demo_py_toolkit/pycache/
 
 # distribution / packaging

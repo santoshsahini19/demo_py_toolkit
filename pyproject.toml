@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "demo_py_toolkit"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Santhosh Ram Sahini", email="santoshsahini@gmail.com" },
 ]
@@ -15,6 +15,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
+
+[project.scripts]
+demo_py_toolkit = "demo_py_toolkit.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/santoshsahini19/demo_py_toolkit"
